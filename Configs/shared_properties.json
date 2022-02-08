@@ -1,0 +1,18 @@
+{
+  "vector_observation_size": 17.0,
+  "unused_vector_end_observation_size": 4.0,
+  "raycast_height": 5.0,
+  "raycast_width": 5.0,
+  "use_raycast": 1.0,
+  "num_raycast": 5.0,
+  "num_raycast_channels": 1.0,
+  "timestep_reward": -0.0005,
+  "use_dense_reward": 1.0,
+  "raycast_start": 0.0,
+  "raycast_size": 25.0,
+  "position_embeddings_start": 0.0,
+  "position_embeddings_size": 0.0,
+  "raw_state_start": 25.0,
+  "raw_state_size": 17.0,
+  "true_state_size": 42.0
+}
