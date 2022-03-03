@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4330711b50358784485f6e87ac1a500c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentPrefab: {fileID: 4215698748013623375, guid: bea9f16326679c4438845e324a299055, type: 3}
+  agentPrefab: {fileID: 4215698748013623375, guid: 9b72c8b2ae2f9e04dbc5715969447ade, type: 3}
   nbAgents: 1
 --- !u!1001 &1130327178
 PrefabInstance:
