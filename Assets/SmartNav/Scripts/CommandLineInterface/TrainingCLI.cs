@@ -6,7 +6,8 @@ using System.Collections.Generic;
 public class TrainingArgs
 {
     public int seed = 0;
-    public string map_folder = "../Maps/Training/";
+    public string map_folder = "./Maps/Training/";
+    public int nbAgents = 1;
 }
 
 public class TrainingCLI
@@ -38,6 +39,8 @@ public class TrainingCLI
         options.Add("seed=", "Map order is randomized based on the seed.", (int seedArg) => args.seed = seedArg);
 
         options.Add("map-folder=", "Path to the folder containing the maps for the training.", (string path) => args.map_folder = path);
+
+        options.Add("nb-agents=", "Number of agents in the environment generating rollouts.", (int nbAgents) => args.nbAgents = nbAgents);
 
         options.Add("h|help|?", "Show this message.", v =>
         {

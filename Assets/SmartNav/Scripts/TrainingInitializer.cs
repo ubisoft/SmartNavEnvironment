@@ -16,6 +16,7 @@ public class TrainingInitializer : MonoBehaviour
     {
         TrainingCLI parser = new TrainingCLI();
         var args = parser.Parse();
+        nbAgents = args.nbAgents;
         MapCycler = new MapCycler(args.map_folder, nbAgents, seed:args.seed);
         CircularCamera circularCamera = GetComponentInChildren<CircularCamera>();
 
