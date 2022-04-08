@@ -1,4 +1,4 @@
-# SmartnavEnvironment (c) Ubisoft 2022
+# SmartNavEnvironment (c) Ubisoft 2022
 
 This environment is an example of how to use the maps from the [SmartnavMapGenerator](https://github.com/ubisoft/SmartNavMapGenerator). You can provide it multiple maps and it will cycle through each maps during the training.
 
